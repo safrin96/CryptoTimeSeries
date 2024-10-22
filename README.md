@@ -25,6 +25,40 @@ This project involves:
    git clone https://github.com/yourusername/crypto-price-prediction.git
    cd crypto-price-prediction
 2. **Install the Required Packages**:
-  ```bash
-    pip install -r requirements.txt```
+   ```bash
+   pip install -r requirements.txt
+3. **Run the Analysis: Execute the main script to see the results**:
+   ```bash
+    python crypto_forecast.py
+   ```
+## 📂 Project Structure
+
+- data/: Contains the datasets used for analysis (bitcoin_prices.csv, daily_bitcoin_prices.csv).
+- plots/: Includes all generated plots, such as seasonal decompositions, moving averages, and forecast results.
+- results/: Stores evaluation metrics like mean absolute error (MAE) for the models.
+## ✨ Key Findings
+
+- Trends and Seasonality: Bitcoin prices exhibit clear trends with some seasonal effects, especially around significant events like halving.
+- Volatility: The price shows high volatility, with sudden spikes and drops over short periods.
+- Model Comparison: The ARIMA model performed well for short-term predictions, while the Prophet model captured seasonality effectively.
+- Ensemble Approach: Combining ARIMA and Prophet predictions improved overall forecasting accuracy.
+
+## 🔮 Further Work
+
+- Incorporate Exogenous Variables: Add external factors like trading volume or market sentiment.
+- Hyperparameter Tuning: Improve the accuracy of the models by tuning parameters.
+- More Cryptocurrencies: Extend the analysis to other coins for a diversified portfolio forecast.
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+## 💡 Contributing
+
+Feel free to open issues or submit pull requests to improve the project!
+📬 Contact
+
+For questions or collaborations, please contact [me](mailto:sshrabony@gmail.com).
+
+Happy Forecasting! 🚀
 
