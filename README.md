@@ -33,7 +33,7 @@ This project involves:
    ```
 ## 📂 Project Structure
 
-- data/: Contains the datasets used for analysis (bitcoin_prices.csv, daily_bitcoin_prices.csv).
+- cryptodata/: Contains the datasets used for analysis (bitcoin_prices.csv, daily_bitcoin_prices.csv).
 - plots/: Includes all generated plots, such as seasonal decompositions, moving averages, and forecast results.
 - results/: Stores evaluation metrics like mean absolute error (MAE) for the models.
 ## ✨ Key Findings
